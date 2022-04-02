@@ -127,7 +127,7 @@ JsonRefs.resolveRefsAt('./app/apidocs/swagger.json').then(results => {
 }
 ```
 
-### Controller (getPlugin)
+### getPlugin route handler
 
 ```js
 exports.getPlugin = wrap(async (req, res, next) => {
@@ -143,7 +143,7 @@ exports.getPlugin = wrap(async (req, res, next) => {
 });
 ```
 
-and then the answer will be:
+and then the response will be:
 
 ```json
 {
